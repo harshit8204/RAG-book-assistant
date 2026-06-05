@@ -1,0 +1,145 @@
+# Correlation vs Covariance
+
+## 1. Covariance
+
+### Definition
+
+Covariance measures how two variables change together.
+
+* Positive Covariance → Both variables tend to increase or decrease together.
+* Negative Covariance → One variable increases while the other decreases.
+* Zero Covariance → No linear relationship.
+
+### Formula
+
+Cov(X,Y) = Σ[(Xi - X̄)(Yi - Ȳ)] / (n - 1)
+
+Where:
+
+* Xi = value of X
+* Yi = value of Y
+* X̄ = mean of X
+* Ȳ = mean of Y
+* n = number of observations
+
+### Interpretation
+
+Cov(X,Y) > 0  → Positive relationship
+
+Cov(X,Y) < 0  → Negative relationship
+
+Cov(X,Y) = 0  → No linear relationship
+
+### Limitation
+
+Covariance depends on the scale of the variables.
+
+Example:
+
+* Height in cm and weight in kg may give covariance = 250
+* Height in meters and weight in kg may give covariance = 2.5
+
+The relationship is the same, but the covariance value changes.
+
+---
+
+## 2. Correlation
+
+### Definition
+
+Correlation measures both the strength and direction of a relationship between two variables.
+
+It is the standardized version of covariance.
+
+### Formula
+
+Correlation (r) = Cov(X,Y) / (σX × σY)
+
+Where:
+
+* Cov(X,Y) = covariance
+* σX = standard deviation of X
+* σY = standard deviation of Y
+
+### Range
+
+-1 ≤ r ≤ +1
+
+### Interpretation
+
+r = +1
+Perfect positive correlation
+
+r = -1
+Perfect negative correlation
+
+r = 0
+No linear relationship
+
+r = 0.8
+Strong positive relationship
+
+r = -0.8
+Strong negative relationship
+
+---
+
+## Correlation Strength Guide
+
+| Correlation Value | Interpretation |
+| ----------------- | -------------- |
+| 0.00 - 0.19       | Very Weak      |
+| 0.20 - 0.39       | Weak           |
+| 0.40 - 0.59       | Moderate       |
+| 0.60 - 0.79       | Strong         |
+| 0.80 - 1.00       | Very Strong    |
+
+---
+
+## Key Differences
+
+| Feature           | Covariance                | Correlation          |
+| ----------------- | ------------------------- | -------------------- |
+| Measures          | Direction of relationship | Direction + Strength |
+| Range             | (-∞, +∞)                  | -1 to +1             |
+| Scale Dependent   | Yes                       | No                   |
+| Easy to Interpret | No                        | Yes                  |
+| Unit              | Depends on variables      | Unitless             |
+
+---
+
+## Example
+
+Hours Studied: [2, 4, 6, 8]
+
+Marks: [40, 50, 70, 90]
+
+Covariance > 0
+→ As study hours increase, marks increase.
+
+Correlation ≈ +0.98
+→ Very strong positive relationship.
+
+---
+
+## Interview Question
+
+Q: If covariance is positive, does it mean correlation is strong?
+
+Answer:
+No. Positive covariance only indicates the direction of the relationship. Correlation tells both the direction and the strength of the relationship.
+
+---
+
+## For Data Science
+
+* Use Covariance to understand how variables move together.
+* Use Correlation for feature analysis and feature selection.
+* Highly correlated features can cause multicollinearity in machine learning models.
+* Correlation matrices are commonly used in EDA (Exploratory Data Analysis).
+
+### Remember
+
+Covariance = Direction
+
+Correlation = Direction + Strength
