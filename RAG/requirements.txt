@@ -1,72 +1,28 @@
-# Core LLM APIs
-openai
+streamlit
+
+python-dotenv
+
 mistralai
 
-# LangChain
 langchain
 langchain-core
 langchain-community
-langchain-openai
 langchain-mistralai
-langchain-text-splitters
-langchain-community
 langchain-huggingface
+langchain-text-splitters
 
-# Vector Database
 chromadb
 
-# Embeddings & Transformers
 sentence-transformers
 transformers
 torch
-HuggingFaceEmbeddings
 
-# Document Loaders
 pypdf
-pdfplumber
 python-docx
 unstructured
 
-# Text Processing
-tiktoken
-
-# Environment Variables
-python-dotenv
-
-# API Backend
-fastapi
-uvicorn
-
-# Data Handling
-pandas
-numpy
-
-# Retrieval & Search
-rank-bm25
-faiss-cpu
-
-# Monitoring & Logging
-loguru
-
-# Utilities
 requests
-aiohttp
 
-# Validation
 pydantic
 
-# Tokenization
-nltk
-
-# Optional RAG Evaluation
-ragas
-
-# Optional Experiment Tracking
-langsmith
-
-# Optional Streamlit Frontend
-streamlit
-
-# Optional OCR
-pytesseract
 Pillow
