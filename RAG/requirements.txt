@@ -10,7 +10,7 @@ langchain-openai
 langchain-mistralai
 langchain-text-splitters
 langchain-community
-
+langchain_huggingface
 
 # Vector Database
 chromadb
@@ -19,6 +19,7 @@ chromadb
 sentence-transformers
 transformers
 torch
+HuggingFaceEmbeddings
 
 # Document Loaders
 pypdf
