@@ -2,10 +2,6 @@
 
 https://rag-book-assistant-8xuquqrpf7hajnaozjlxiu.streamlit.app/
 
-## 🖥️ Demo
-
-![RAG Book Assistant LINK](https://rag-book-assistant-8xuquqrpf7hajnaozjlxiu.streamlit.app/)
-
 ---
 
 ## 🔍 What Is This?
