@@ -2,7 +2,7 @@
 
 ## 🖥️ Demo
 
-![RAG Book Assistant Demo](App_demo.jpg)
+![RAG Book Assistant Demo](https://rag-book-assistant-8xuquqrpf7hajnaozjlxiu.streamlit.app/)
 
 ---
 
